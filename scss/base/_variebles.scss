@@ -1,0 +1,17 @@
+$textColors: (
+	"primery": #363636,
+	"secondary": #ffffff,
+);
+
+$acentColors: (
+	"primery": #3670ff,
+	"secondary": #ffcf59,
+);
+
+@function getTextColor($key) {
+	@return map-get($textColors, $key);
+}
+
+@function getAcentColor($key) {
+	@return map-get($acentColors, $key);
+}
