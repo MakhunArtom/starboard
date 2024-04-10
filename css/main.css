@@ -1,8 +1,14 @@
 body {
-  font-family: "Poppins" sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.58px;
   color: #363636;
-  background-color: #ffffff;
+  background-color: black;
+  background-image: url("../../media/svg/call.svg");
+}
+
+svg {
+  width: 300px;
+  height: 300px;
 }/*# sourceMappingURL=main.css.map */
